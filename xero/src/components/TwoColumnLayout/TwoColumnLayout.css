@@ -1,0 +1,28 @@
+.two-column-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-column {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-column {
+    flex: 1;
+    background-color: #1ab4d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .left-content,
+  .right-content {
+    width: 80%;
+    max-width: 500px;
+  }
+  

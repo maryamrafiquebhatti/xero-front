@@ -1,0 +1,95 @@
+/* General Two-Column Layout */
+.two-column-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Left Column */
+  .left-column {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-content {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .otp-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .otp-input {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .verify-button {
+    width: 100%;
+    background-color: #1AB4D7;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .resend-text {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .resend-button {
+    background: none;
+    border: none;
+    color: #1AB4D7;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Right Column */
+  .right-column {
+    flex: 1;
+    background-color: #1AB4D7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .right-content {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .promo-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .right-heading {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .right-text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
